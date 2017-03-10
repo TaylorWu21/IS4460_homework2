@@ -29,9 +29,9 @@
       $title = $row[1];
       $description = $row[2];
       session_start();
-      $_SESSION['title']  = $title;
-      $_SESSION['description']  = $description;
-      $_SESSION['movie_id']  = $id;
+      $_SESSION['title'] = $title;
+      $_SESSION['description'] = $description;
+      $_SESSION['movie_id'] = $id;
     }
     // $result->close();
     $conn2->close();
